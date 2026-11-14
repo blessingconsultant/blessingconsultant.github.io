@@ -4,45 +4,61 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blessing I.T Consultant | Technology Solutions</title>
-<meta name="description" content="Blessing I.T Consultant offers computer repairs, IT consulting, laptop sales, accessories and custom laptop stickers in Northern Region, Ghana.">
+<title>Blessing I.T Consultant | Premium Technology Solutions</title>
+<meta name="description" content="Computer repairs, IT consulting, laptop sales and accessories in Northern Region, Ghana.">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{font-family:Arial,sans-serif;background:#080e1b;color:#fff;line-height:1.6}
-header{background:#101a2c;padding:20px 7%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px}
-.logo{font-size:21px;font-weight:bold;color:#38a5ff}
+a{text-decoration:none;color:inherit}
+header{background:#0b1424;border-bottom:1px solid #1d304b;padding:17px 6%;display:flex;align-items:center;justify-content:space-between;gap:15px;position:sticky;top:0;z-index:10}
+.logo{font-size:20px;font-weight:800;color:#299bff}
 .logo span{color:white}
-nav{display:flex;gap:20px;flex-wrap:wrap}
-nav a{color:white;text-decoration:none;font-size:14px}
-nav a:hover{color:#38a5ff}
-.hero{padding:100px 8%;background:linear-gradient(120deg,#101a2c,#063b70);text-align:center}
-.hero h1{font-size:clamp(35px,6vw,58px);line-height:1.15;margin-bottom:20px}
-.hero h1 span{color:#38a5ff}
-.hero p{max-width:650px;margin:0 auto 30px;color:#d5e4f5}
-.btn{display:inline-block;padding:13px 25px;border-radius:7px;background:#1689ed;color:white;text-decoration:none;font-weight:bold;margin:5px}
-.btn:hover{background:#0065bb}
-.btn.secondary{background:transparent;border:1px solid #38a5ff}
-section{padding:70px 8%}
-.section-title{text-align:center;font-size:32px;margin-bottom:12px}
-.subtitle{text-align:center;color:#aabbd0;margin-bottom:40px}
-.about{text-align:center;max-width:800px;margin:auto;color:#c5d1df}
+nav{display:flex;gap:22px;flex-wrap:wrap}
+nav a{font-size:14px;color:#d5dfed}
+nav a:hover{color:#299bff}
+.hero{min-height:580px;display:flex;align-items:center;padding:90px 8%;background:linear-gradient(90deg,rgba(5,12,25,.97),rgba(5,18,37,.78)),url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1800') center/cover}
+.hero-content{max-width:680px}
+.tag{color:#38a5ff;text-transform:uppercase;letter-spacing:3px;font-size:12px;font-weight:bold}
+.hero h1{font-size:clamp(38px,6vw,68px);line-height:1.12;margin:20px 0}
+.hero h1 span{color:#299bff}
+.hero p{color:#c4d1e2;font-size:17px;max-width:570px;margin-bottom:28px}
+.btn{display:inline-block;background:#1689ed;padding:14px 24px;border-radius:6px;font-weight:bold;margin:5px 5px 5px 0}
+.btn:hover{background:#0864b5}
+.outline{background:transparent;border:1px solid #299bff}
+section{padding:75px 8%}
+.heading{text-align:center;margin-bottom:42px}
+.heading small{color:#299bff;letter-spacing:2px;text-transform:uppercase}
+.heading h2{font-size:34px;margin-top:8px}
+.heading p{color:#aabbd0;margin-top:8px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.about img{width:100%;border-radius:12px;border:1px solid #29415f}
+.about p{color:#c2cede;margin:15px 0}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
-.card{background:#111e32;padding:27px;border-radius:12px;border:1px solid #263b59}
-.card .symbol{font-size:35px;margin-bottom:12px}
-.card h3{color:#48aaff;margin-bottom:10px}
-.card p{color:#bac8d8;font-size:14px}
-.card .price{color:#48aaff;font-weight:bold;margin-top:12px}
-.products{background:#0c1525}
-.contact{text-align:center;background:#101a2c}
-.contact p{color:#c5d1df;margin:12px}
-footer{text-align:center;padding:25px;background:#060b14;color:#aabbd0;font-size:13px}
-footer span{color:#38a5ff}
-@media(max-width:600px){
-header{justify-content:center}
-nav{justify-content:center}
-.hero{padding:75px 6%}
-section{padding:55px 6%}
+.card{background:#101c30;border:1px solid #213752;border-radius:12px;overflow:hidden;transition:.3s}
+.card:hover{transform:translateY(-5px);border-color:#299bff}
+.card img{width:100%;height:175px;object-fit:cover;display:block}
+.card-body{padding:22px}
+.card h3{color:#55adff;margin-bottom:9px}
+.card p{color:#b5c4d7;font-size:14px}
+.price{color:#55adff;font-weight:bold;margin-top:10px}
+.dark-section{background:#0c1525}
+.product-card img{height:190px}
+.product-card .btn{margin-top:16px}
+.banner{background:linear-gradient(110deg,#102a4a,#075ca7);text-align:center;border-radius:15px;padding:55px 25px}
+.banner p{color:#d5e7fa;margin:12px 0 20px}
+.contact{background:#0c1525;text-align:center}
+.contact p{color:#c3d1e1;margin:10px}
+.contact strong{color:#55adff}
+footer{background:#050a13;text-align:center;padding:30px 15px;color:#9aabc0;font-size:13px}
+footer span{color:#299bff}
+@media(max-width:650px){
+header{flex-direction:column}
+nav{justify-content:center;gap:14px}
+.hero{min-height:570px;padding:70px 6%}
+section{padding:60px 6%}
+.about{grid-template-columns:1fr}
+.heading h2{font-size:29px}
 }
 </style>
 </head>
@@ -60,88 +76,101 @@ section{padding:55px 6%}
 </header>
 
 <div class="hero" id="home">
-<h1>Your Technology Partner for a <span>Smarter Future</span></h1>
-<p>Welcome to Blessing I.T Consultant. We provide reliable computer repairs, professional IT consulting, laptop sales, accessories and custom laptop designs.</p>
-<a class="btn" href="https://wa.me/233201221595">Contact Us on WhatsApp</a>
-<a class="btn secondary" href="#services">Explore Services</a>
+<div class="hero-content">
+<div class="tag">Technology • Innovation • Excellence</div>
+<h1>Technology That Works. <span>Solutions That Last.</span></h1>
+<p>Your trusted technology partner for computer repairs, IT consulting, laptop sales, accessories and custom laptop designs.</p>
+<a class="btn" href="https://wa.me/233201221595">Chat With Us</a>
+<a class="btn outline" href="#services">Explore Services</a>
+</div>
 </div>
 
 <section id="about">
-<h2 class="section-title">About Us</h2>
-<p class="subtitle">Technology solutions you can trust.</p>
 <div class="about">
-<p>Blessing I.T Consultant is committed to providing quality technology services and products. From computer repairs to laptop sales and personalised laptop designs, we help individuals and businesses get the best from technology.</p>
-</div>
-</section>
-
-<section id="services">
-<h2 class="section-title">Our Services</h2>
-<p class="subtitle">Professional services to meet your technology needs.</p>
-<div class="cards">
-<div class="card">
-<div class="symbol">💻</div>
-<h3>Computer Repairs</h3>
-<p>Reliable computer troubleshooting, software installation and repair services.</p>
-</div>
-<div class="card">
-<div class="symbol">🖥️</div>
-<h3>IT Consulting</h3>
-<p>Professional IT advice and technology solutions for individuals and businesses.</p>
-</div>
-<div class="card">
-<div class="symbol">🎨</div>
-<h3>Laptop Designing</h3>
-<p>Personalise your laptop with stylish and creative custom stickers.</p>
-<div class="price">Stickers: ₵100</div>
-</div>
-<div class="card">
-<div class="symbol">🛒</div>
-<h3>Laptop Sales</h3>
-<p>Buy quality laptops at competitive prices. Contact us for current availability.</p>
-</div>
-<div class="card">
-<div class="symbol">🎧</div>
-<h3>Laptop Accessories</h3>
-<p>Buy useful laptop accessories and computer essentials from us.</p>
+<img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900" alt="Modern technology workspace">
+<div>
+<div class="tag">Who We Are</div>
+<h2>About Blessing I.T Consultant</h2>
+<p>We are committed to providing dependable technology services and quality computer products.</p>
+<p>Whether you need a computer repaired, professional IT advice, a new laptop or personalised laptop stickers, we are ready to help.</p>
+<a class="btn" href="https://wa.me/233201221595">Talk To Our Team</a>
 </div>
 </div>
 </section>
 
-<section class="products" id="products">
-<h2 class="section-title">Our Products</h2>
-<p class="subtitle">Explore our laptop and accessory categories.</p>
+<section class="dark-section" id="services">
+<div class="heading">
+<small>What We Do</small>
+<h2>Our Professional Services</h2>
+<p>Technology services designed around your needs.</p>
+</div>
 <div class="cards">
 <div class="card">
-<div class="symbol">💻</div>
-<h3>Laptops</h3>
-<p>Explore available laptops for work, business, school and everyday use.</p>
-<a class="btn" href="https://wa.me/233201221595?text=Hello%2C%20I%20want%20to%20enquire%20about%20available%20laptops.">Enquire Now</a>
+<img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=700" alt="Computer repair">
+<div class="card-body"><h3>Computer Repairs</h3><p>Computer troubleshooting, software installation, maintenance and repair services.</p></div>
 </div>
 <div class="card">
-<div class="symbol">⌨️</div>
-<h3>Computer Accessories</h3>
-<p>Ask us about available laptop accessories and computer essentials.</p>
-<a class="btn" href="https://wa.me/233201221595?text=Hello%2C%20I%20want%20to%20enquire%20about%20laptop%20accessories.">Enquire Now</a>
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=700" alt="IT consulting">
+<div class="card-body"><h3>IT Consulting</h3><p>Technology guidance and practical IT solutions for individuals and businesses.</p></div>
 </div>
 <div class="card">
-<div class="symbol">✨</div>
-<h3>Custom Stickers</h3>
-<p>Give your laptop a unique and stylish appearance with custom stickers.</p>
-<div class="price">₵100</div>
-<a class="btn" href="https://wa.me/233201221595?text=Hello%2C%20I%20want%20to%20order%20laptop%20stickers.">Order Now</a>
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700" alt="Laptop customization workspace">
+<div class="card-body"><h3>Laptop Designing</h3><p>Make your laptop stand out with stylish custom sticker designs.</p><div class="price">₵100</div></div>
 </div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=700" alt="Laptop computer">
+<div class="card-body"><h3>Laptop Sales</h3><p>Buying and selling laptops for school, work, business and everyday use.</p></div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1588508065123-287b28e013da?w=700" alt="Computer accessories">
+<div class="card-body"><h3>Laptop Accessories</h3><p>Explore our range of laptop accessories and computer essentials.</p></div>
+</div>
+</div>
+</section>
+
+<section id="products">
+<div class="heading">
+<small>Shop With Us</small>
+<h2>Our Product Categories</h2>
+<p>Contact us to check current stock and prices.</p>
+</div>
+<div class="cards">
+<div class="card product-card">
+<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=700" alt="Laptop">
+<div class="card-body"><h3>Laptops</h3><p>Find a laptop that suits your needs and budget.</p><a class="btn" href="https://wa.me/233201221595?text=Hello%2C%20I%20want%20to%20see%20available%20laptops.">Enquire Now</a></div>
+</div>
+<div class="card product-card">
+<img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=700" alt="Computer accessories">
+<div class="card-body"><h3>Accessories</h3><p>Ask us about available laptop and computer accessories.</p><a class="btn" href="https://wa.me/233201221595?text=Hello%2C%20I%20want%20to%20see%20available%20accessories.">Enquire Now</a></div>
+</div>
+<div class="card product-card">
+<img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=700" alt="Creative technology">
+<div class="card-body"><h3>Custom Stickers</h3><p>Give your laptop a unique and personalised appearance.</p><div class="price">₵100</div><a class="btn" href="https://wa.me/233201221595?text=Hello%2C%20I%20want%20to%20order%20custom%20laptop%20stickers.">Order Now</a></div>
+</div>
+</div>
+</section>
+
+<section class="dark-section">
+<div class="banner">
+<div class="tag">Need Technology Support?</div>
+<h2>Let's Find The Right Solution For You.</h2>
+<p>Get in touch with Blessing I.T Consultant today.</p>
+<a class="btn" href="https://wa.me/233201221595">Contact Us on WhatsApp</a>
 </div>
 </section>
 
 <section class="contact" id="contact">
-<h2 class="section-title">Get In Touch</h2>
-<p>Have a question or need our services? We are ready to help.</p>
+<div class="heading">
+<small>Get In Touch</small>
+<h2>Contact Us</h2>
+<p>We are ready to assist you.</p>
+</div>
 <p><strong>Phone:</strong> +233 20 122 1595</p>
 <p><strong>WhatsApp:</strong> +233 20 122 1595</p>
 <p><strong>Email:</strong> blessingconsultant4@gmail.com</p>
 <p><strong>Location:</strong> Northern Region, Ghana</p>
-<a class="btn" href="https://wa.me/233201221595">Chat With Us on WhatsApp</a>
-<a class="btn secondary" href="mailto:blessingconsultant4@gmail.com">Send Us an Email</a>
+<a class="btn" href="https://wa.me/233201221595">Send Us a WhatsApp Message</a>
+<a class="btn outline" href="mailto:blessingconsultant4@gmail.com">Send an Email</a>
 </section>
 
 <footer>
